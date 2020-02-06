@@ -1,0 +1,318 @@
+@font-face{
+				font-family: "Montserrat";
+				src:url("Montserrat-Bold.otf");
+				/*font-family: "Montserrat2";
+				src:url("Montserrat-Regular.otf");
+				font-family: "Montserrat3";
+				src:url("Montserrat-Light.otf");*/
+			}
+			@font-face{
+				font-family: "MontserratRegular";
+				src:url("Montserrat-Regular.otf");
+
+			}
+			@font-face{
+				font-family: "MontserratLight";
+				src:url("Montserrat-Light.otf");
+
+			}
+			@font-face{
+				font-family: "MontserratExtraBold";
+				src:url("Montserrat-ExtraBold.otf");
+			}
+			@font-face{
+				font-family: "MontserratThin";
+				src:url("Montserrat-Thin.otf");
+			}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "MontserratRegular";
+}
+
+.red-color{
+	color: #DF413D;
+}
+.landing{
+	width: 100%;
+	height: 100vh;
+	color: #ffffff;
+	background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/main-bg.jpg');
+	background-size: cover;
+}
+.landing-title{
+font-family: "MontserratExtraBold";	
+text-align: center;
+}
+.navbar img{
+	max-width: 150px;
+}
+.nav-link{
+	font-size: 12px;
+	margin-right: 3rem;
+	padding: 0.5rem 0 !important;
+	color: rgb(100,100,100);
+	border-bottom: 2px solid rgba(0,0,0,0);
+}
+/*.nav-link:hover{
+	border-bottom: 2px solid #DF413D;
+}*/
+.redSelect:after{
+				content: "";
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+				padding-top: 3px;
+				border-bottom: 2px solid #DF413D;
+
+			}
+.outline-button{
+	margin-right: 0;
+	padding: 0.5rem 1rem !important;
+	border: 1.5px solid #DF413D;
+	font-size: 12px;
+	border-radius: 50px;
+	text-decoration: none !important;
+	color: #ffffff !important;
+}
+.outline-button:hover{
+	border: 1.5px solid rgba(0,0,0,0);
+	background: #DF413D;
+	color: #ffffff;
+}
+.landing h1{ font-family: "Montserrat"; }
+.landing p{ font-family: "MontserratThin";}
+.intro-text{
+	margin-top: 20%;
+}
+#learnMore{
+	font-family: "MontserratRegular" !important;
+	border: 1.5px solid #DF413D;
+	border-radius: 50px !important;
+	color: #EFEFF0;
+}
+
+.seamless{
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+.seamless .row{
+	margin-top: 4em;
+}
+.landing-rider{
+	text-align: center;
+	padding: 0 20%;
+}
+
+.seamless .option{
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(200,200,200,0.95);
+	padding: 3em 2em 3em 2em;
+	cursor: pointer;
+	transition: transform 1s;
+	min-height: 400px;
+}
+.seamless .option:hover{
+	transform: scale(1.05);
+}
+.seamless .option h5{
+	font-family: Montserrat;
+	margin-top: 2em;
+	font-size: 1.1em;
+}
+.seamless .option p{
+	font-size: 14px;
+	margin-top: 1em;
+}
+.seamless .option img{
+	height: 40px !important;
+}
+.chat{
+	color: #ffffff;
+	background-color: #101d2c;
+	padding-top: 2em;
+}
+
+.chat h1{
+	font-family: "MontserratExtraBold";
+	margin-top: 2em;
+}
+.chat p{
+	font-family: "MontserratLight";
+	font-size: 14px;
+}
+.chat img{
+	width: 70%;
+}
+.testimonials {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #ffffff;
+}
+.testimonial {
+	overflow: hidden;
+}
+.testimonial .inner{
+	width: 400%;
+	transition: margin-left .5s;
+}
+
+.testimonial .item img{
+ width: 250px;
+ margin-top: 1em;
+}
+
+.testimonial .item p{
+	padding: 2em 20%;
+	color: #101d2c;
+	font-size: 1.1em;
+}
+
+.testimonial .buttons span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	margin-right: 1em;
+	background: #cccccc;
+	transition: transform .5s;
+	cursor: pointer;
+}
+.testimonial .buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20px;
+}
+.testimonial .buttons span:hover{
+	transform: scale(1.5);
+}
+.active{
+	background: #101d2c !important;
+	transform: scale(1.5);
+}
+
+.brands{
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.brands .row{
+	margin-top: -1em;
+}
+.brands img{
+	height: 40px;
+	margin-top: 3em;
+}
+.brands img:nth-child(5){
+	height: 45px;
+}
+
+
+
+.main-footer{
+	padding-bottom: 2em;
+	padding-top: 6em;
+	background: #101d2c;
+	color: #ffffff;
+	font-family: MontserratLight;
+	font-size: 15px;
+}
+
+.main-footer input{
+	border-radius: 50px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.main-footer h5{
+	font-family: Montserrat;
+	padding-bottom: 1.5em;
+	font-size: 17px;
+}
+
+.sub-footer {
+	font-size: 12px;
+	margin-top: 6em;
+	padding-top: 2em;
+	color: rgba(255,255,255,.5);
+	border-top: .4px solid rgba(255,255,255,.5);
+}
+@media only screen and (max-width: 992px){
+	.intro-text{
+	margin-top: 50%;
+}
+.landing{
+	background-position: right;
+}
+
+.landing-title{
+	font-size: 2em;
+}
+.landing-rider{
+	font-size: 14px;
+	padding: 0 5%;
+}
+.seamless {
+	padding: 6em 1.5em;
+	margin-top: 0em;
+}
+.seamless .row .option{
+	margin-top: 2em;
+}
+
+.chat h1{
+	font-size: 1.6em
+}
+.chat p{
+	font-size: .7em;
+}
+
+.brands img{
+	height: 30px;
+}
+}
+
+@media only screen and (max-width: 567px){
+	.intro-text{
+	margin-top: 75%;
+}
+.landing h1{
+	font-size: 2em !important;
+}
+.landing p{
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.landing{
+	background-position: right;
+}
+
+
+.seamless .row .option{
+	/*margin: 2em auto auto auto; */
+	text-align: center;
+}
+
+.chat{
+	text-align: center;
+}
+
+.chat .col-md-6:first-child{
+	padding-bottom: 2em;
+}
+.testimonial .item img{
+ width: 170px;
+}
+.testimonial .item p{
+	padding: 2em 0%;
+	color: #101d2c;
+	font-size: 1em;
+}
+
+.brands img{
+	height: 25px;
+}
+
+}
