@@ -383,7 +383,7 @@ div #media-button {
   padding-top: 5%;
   font-family: 'MontserratRegular';
 }
-#submit .btn {
+#submit {
   font-family: 'Montserrat';
   border: 2px solid;
   border-color: #df413d !important;
@@ -391,7 +391,7 @@ div #media-button {
   color: #101d2c !important;
   background: #ffffff !important;
 }
-#submit .btn:hover {
+#submit :hover {
   border: hidden;
   background: #101d2c !important;
   color: #efeff0 !important;
